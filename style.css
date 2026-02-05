@@ -1,0 +1,89 @@
+.profile-container img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border: solid;
+    padding: 10px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    margin-top: 70px;
+}
+
+section {
+    scroll-margin-top: 80px;
+}
+
+#tech-skills {
+    scroll-margin-top: 80px;
+}
+
+@media (min-width: 768px) {
+    .profile-container {
+        flex-direction: row;
+        text-align: left;
+        align-items: center;
+    }
+
+    .profile-text {
+        margin-left: 2rem;;
+    }
+
+    .about-me {
+        max-height: fit-content;
+    }
+}
+
+.navbar-gradient {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+}
+
+.navbar-brand, h1, h2, h3 {
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.about-text {
+    text-align: justify;
+}
+
+.java-card img {
+    width: 80px;
+    height: auto;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.about-me {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    border-radius: 10px;
+    color: white;
+    padding: 20px; 
+}
+
+.tech-skills {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    border-radius: 15px;
+    padding: 20px;
+    color: white;
+    
+}
+
+.card {
+    color:black;
+    font-size: 20px;
+}
+
+.card:hover img {
+    transform: scale(1.2);
+}
